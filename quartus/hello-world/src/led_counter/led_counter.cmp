@@ -1,0 +1,7 @@
+	component led_counter is
+		port (
+			clock : in  std_logic                     := 'X'; -- clock
+			q     : out std_logic_vector(31 downto 0)         -- q
+		);
+	end component led_counter;
+
