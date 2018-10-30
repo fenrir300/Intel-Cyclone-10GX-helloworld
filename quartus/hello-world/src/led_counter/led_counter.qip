@@ -1,0 +1,64 @@
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_TOOL_VERSION "18.0"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_TOP_LEVEL_COMPONENT_NAME "lpm_counter"
+set_global_assignment -library "led_counter" -name SOPCINFO_FILE [file join $::quartus(qip_path) "led_counter.sopcinfo"]
+set_global_assignment -entity "led_counter" -library "led_counter" -name SLD_INFO "QSYS_NAME led_counter HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "led_counter" -name MISC_FILE [file join $::quartus(qip_path) "led_counter.cmp"]
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_TARGETED_DEVICE_FAMILY "Cyclone 10 GX"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone 10 GX}"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "led_counter" -name MISC_FILE [file join $::quartus(qip_path) "../led_counter.ip"]
+
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_NAME "bGVkX2NvdW50ZXJfbHBtX2NvdW50ZXJfMTgwXzJuZ3FxeHE="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_DISPLAY_NAME "TFBNX0NPVU5URVIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_VERSION "MTguMA=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_DESCRIPTION "QmluYXJ5IGNvdW50ZXIgdGhhdCBjcmVhdGVzIHVwIGNvdW50ZXJzLCBkb3duIGNvdW50ZXJzIGFuZCB1cCBvciBkb3duIGNvdW50ZXJzIHdpdGggb3V0cHV0cyBvZiB1cCB0byAyNTYgYml0cyB3aWR0aC4="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "REVWSUNFX0ZBTUlMWQ==::Q3ljbG9uZSAxMCBHWA==::RGV2aWNlIEZhbWlseQ=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX01PRFVMVVNfVkFMVUU=::MQ==::TW9kdWx1cw=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0NMS0VO::ZmFsc2U=::Q2xvY2sgRW5hYmxl"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0NOVEVO::ZmFsc2U=::Q291bnQgRW5hYmxl"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0NBUlJZSU4=::ZmFsc2U=::Q2FycnktaW4="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0NBUlJZT1VU::ZmFsc2U=::Q2Fycnktb3V0"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX1NDTFI=::ZmFsc2U=::Q2xlYXI="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX1NMT0FE::ZmFsc2U=::TG9hZA=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX1NTRVQ=::ZmFsc2U=::U2V0"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX1NWQUxVRQ==::MA==::VmFsdWU="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0FDTFI=::ZmFsc2U=::Q2xlYXI="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0FMT0FE::ZmFsc2U=::TG9hZA=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0FTRVQ=::ZmFsc2U=::U2V0"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0FWQUxVRQ==::MA==::VmFsdWU="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX1dJRFRI::MzI=::V2lkdGg="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0RJUkVDVElPTg==::MA==::RGlyZWN0aW9u"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX01PRFVMVVNfQ09VTlRFUg==::MA==::VHlwZQ=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX1NTRVRfQUxMMQ==::MQ==::U2V0IHRv"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_PARAMETER "R1VJX0FTRVRfQUxMMQ==::MQ==::U2V0IHRv"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0FyaXRobWV0aWM="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvdWcvdWdfbHBtX2FsdF9tZnVnLnBkZg=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuYWx0ZXJhLmNvbS9jb250ZW50L2RhbS9hbHRlcmEtd3d3L2dsb2JhbC9lbl9VUy9wZGZzL2xpdGVyYXR1cmUvdWcvdWdfbHBtX2FsdF9tZnVnLnBkZg=="
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5ODAxMzQwOA=="
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_NAME "bGVkX2NvdW50ZXI="
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSAxMCBHWA==::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBDWDIyMFlGNzgwSTVH::QXV0byBERVZJQ0U="
+set_global_assignment -entity "led_counter" -library "led_counter" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::NQ==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+
+
+set_global_assignment -library "lpm_counter_180" -name VERILOG_FILE [file join $::quartus(qip_path) "lpm_counter_180/synth/led_counter_lpm_counter_180_2ngqqxq.v"]
+set_global_assignment -library "led_counter" -name VHDL_FILE [file join $::quartus(qip_path) "synth/led_counter.vhd"]
+
+
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_TOOL_NAME "lpm_counter"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_TOOL_VERSION "18.0"
+set_global_assignment -entity "led_counter_lpm_counter_180_2ngqqxq" -library "lpm_counter_180" -name IP_TOOL_ENV "QsysPrimePro"
+

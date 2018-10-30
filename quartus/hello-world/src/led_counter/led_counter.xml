@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2018.10.29.15:54:44"
+ outputDirectory="X:/GIT/Intel-Cyclone-10GX-helloworld/quartus/hello-world/src/led_counter/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone 10 GX"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10CX220YF780I5G"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="5"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="counter_input" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="clock" direction="input" role="clock" width="1" />
+  </interface>
+  <interface name="counter_output" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="q" direction="output" role="q" width="32" />
+  </interface>
+ </perimeter>
+ <entity kind="led_counter" version="1.0" name="led_counter">
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10CX220YF780I5G" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone 10 GX" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="5" />
+  <generatedFiles>
+   <file
+       path="X:\GIT\Intel-Cyclone-10GX-helloworld\quartus\hello-world\src\led_counter\synth\led_counter.vhd"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="X:\GIT\Intel-Cyclone-10GX-helloworld\quartus\hello-world\src\led_counter\synth\led_counter.vhd"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="X:/GIT/Intel-Cyclone-10GX-helloworld/quartus/hello-world/src/led_counter.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_pro/18.0/ip/altera/megafunctions/lpm_counter/lpm_counter_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="led_counter">"Generating: led_counter"</message>
+   <message level="Info" culprit="led_counter">"Generating: led_counter_lpm_counter_180_2ngqqxq"</message>
+  </messages>
+ </entity>
+ <entity
+   kind="lpm_counter"
+   version="18.0"
+   name="led_counter_lpm_counter_180_2ngqqxq">
+  <parameter name="GUI_ASET_ALL1" value="1" />
+  <parameter name="GUI_SCLR" value="false" />
+  <parameter name="GUI_SLOAD" value="false" />
+  <parameter name="GUI_CARRYIN" value="false" />
+  <parameter name="GUI_SSET_ALL1" value="1" />
+  <parameter name="DEVICE_FAMILY" value="Cyclone 10 GX" />
+  <parameter name="GUI_SSET" value="false" />
+  <parameter name="GUI_WIDTH" value="32" />
+  <parameter name="GUI_CLKEN" value="false" />
+  <parameter name="GUI_ASET" value="false" />
+  <parameter name="GUI_AVALUE" value="0" />
+  <parameter name="GUI_MODULUS_COUNTER" value="0" />
+  <parameter name="GUI_CNTEN" value="false" />
+  <parameter name="GUI_DIRECTION" value="0" />
+  <parameter name="GUI_ALOAD" value="false" />
+  <parameter name="GUI_SVALUE" value="0" />
+  <parameter name="GUI_ACLR" value="false" />
+  <parameter name="GUI_MODULUS_VALUE" value="1" />
+  <parameter name="GUI_CARRYOUT" value="false" />
+  <generatedFiles>
+   <file
+       path="X:\GIT\Intel-Cyclone-10GX-helloworld\quartus\hello-world\src\led_counter\lpm_counter_180\synth\led_counter_lpm_counter_180_2ngqqxq.v"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="X:\GIT\Intel-Cyclone-10GX-helloworld\quartus\hello-world\src\led_counter\lpm_counter_180\synth\led_counter_lpm_counter_180_2ngqqxq.v"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_pro/18.0/ip/altera/megafunctions/lpm_counter/lpm_counter_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="led_counter" as="lpm_counter_0" />
+  <messages>
+   <message level="Info" culprit="led_counter">"Generating: led_counter_lpm_counter_180_2ngqqxq"</message>
+  </messages>
+ </entity>
+</deploy>
