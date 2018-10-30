@@ -11,7 +11,6 @@ set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 780
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 5
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 4
-set_global_assignment -name BDF_FILE "hello-world.bdf"
 set_location_assignment PIN_AE10 -to LED
 set_instance_assignment -name IO_STANDARD "1.8 V" -to LED -entity "hello-world"
 set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
@@ -22,3 +21,15 @@ set_global_assignment -name GENERATE_PR_RBF_FILE OFF
 set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
 set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_100MHZ
 set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name VHDL_FILE src/top.vhd
+set_global_assignment -name BDF_FILE "hello-world.bdf"
+set_global_assignment -name POWER_AUTO_COMPUTE_TJ ON
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name IP_FILE src/led_counter.ip
+set_location_assignment PIN_AE17 -to CLK
+set_instance_assignment -name IO_STANDARD "1.8 V" -to CLK -entity "hello-world"
+set_location_assignment PIN_AC11 -to RXD
+set_location_assignment PIN_AA12 -to TXD
+set_instance_assignment -name IO_STANDARD "1.8 V" -to RXD -entity "hello-world"
+set_instance_assignment -name IO_STANDARD "1.8 V" -to TXD -entity "hello-world"
