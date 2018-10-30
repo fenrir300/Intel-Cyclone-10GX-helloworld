@@ -21,9 +21,9 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 8 160 176 176)
+	(rect -8 160 160 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(text "CLK" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,13 +34,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -64 176 8 200))
+	(annotation_block (location)(rect -80 176 -16 195))
 )
 (pin
 	(input)
 	(rect 112 328 280 344)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "RXD" (rect 5 0 28 12)(font "Arial" ))
+	(text "RXD" (rect 5 0 27 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -51,6 +51,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 40 344 112 368))
 )
 (pin
 	(output)
@@ -67,7 +68,7 @@ refer to the applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 736 208 808 232))
+	(annotation_block (location)(rect 736 208 800 227))
 )
 (pin
 	(output)
@@ -84,6 +85,7 @@ refer to the applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 496 344 568 368))
 )
 (symbol
 	(rect 192 96 432 200)
@@ -124,10 +126,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(pt 176 168)
-	(pt 192 168)
-)
-(connector
 	(pt 464 168)
 	(pt 464 200)
 	(bus)
@@ -151,5 +149,9 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 280 336)
 	(pt 320 336)
+)
+(connector
+	(pt 160 168)
+	(pt 192 168)
 )
 (junction (pt 464 200))
